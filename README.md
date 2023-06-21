@@ -18,11 +18,12 @@ To compile and interact with this contract, you need the following:
 # Compilation
 1.Copy the code from the code block below:
 
+# Code
+
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 contract MyToken {
     // public variables here
-
     string public Token_name = "LITCOIN"; // a string variable to store my token_name
     string public Token_abbrv = "LTC"; //  another string variable to store my token_abbrv
     uint256 public Total_supply = 0; // and unint varibale which usigned int
