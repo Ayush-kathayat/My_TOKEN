@@ -4,9 +4,13 @@ This Solidity program is a token contract that allows minting and burning of tok
 
 # Requirements
 1.The contract will have public variables to store details about the token (Token Name, Token Abbreviation, Total Supply).
+
 2.The contract will have a mapping of addresses to balances (address => uint256) to keep track of token balances.
+
 3.There will be a mint function that takes two parameters: an address and a value. This function will increase the total supply by the given value and add the value to the balance of the sender's address.
+
 4.The contract will include a burn function that works the opposite of the mint function. It will take an address and a value, deduct the value from the total supply, and subtract the value from the balance of the sender's address.
+
 5.The burn function will include conditionals to ensure that the balance of the sender is greater than or equal to the amount to be burned.
 
 # Getting Started
@@ -20,6 +24,7 @@ To compile and interact with this contract, you need the following:
 
 # Code
 
+```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 contract MyToken {
@@ -50,7 +55,7 @@ contract MyToken {
         }
     }
 }
-
+```
 2.Paste the code into your Solidity development environment.
 
 # Deployment and Usage
