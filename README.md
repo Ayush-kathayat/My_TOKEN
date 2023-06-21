@@ -65,9 +65,10 @@ Interact with the contract using the following functions:
 mint(address Address, uint256 value): Mints new tokens by increasing the total supply and adding the specified value to the balance of the specified address.
 burn(address Address, uint256 value): Burns tokens by deducting the specified value from the total supply and subtracting it from the balance of the specified address. The function includes a conditional check to ensure that the balance of the sender is greater than or equal to the value being burned.
 
-Authors
+# Authors
+
 Ayush Kathayat
 hosiyars281@gmail.com
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE.md file for details.
